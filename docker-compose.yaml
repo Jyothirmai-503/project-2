@@ -10,7 +10,7 @@ services:
       MYSQL_ROOT_PASSWORD: wordpress
       MYSQL_DATABASE: wordpress1
       MYSQL_USER: Jyothirmai
-      MYSQL_PASSWORD: Jyothi@12
+      MYSQL_PASSWORD: Jyothi@123
 
   wordpress:
     image: wordpress:latest
@@ -21,7 +21,7 @@ services:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_NAME: wordpress1
       WORDPRESS_DB_USER: Jyothirmai
-      WORDPRESS_DB_PASSWORD: Jyothi@12
+      WORDPRESS_DB_PASSWORD: Jyothi@123
 
 volumes:
   db_data:
